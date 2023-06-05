@@ -13,6 +13,12 @@
 		3B3346FE2A29C2C1001D5060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3346FC2A29C2C1001D5060 /* Main.storyboard */; };
 		3B3347002A29C2C2001D5060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3346FF2A29C2C2001D5060 /* Assets.xcassets */; };
 		3B3347032A29C2C2001D5060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3347012A29C2C2001D5060 /* LaunchScreen.storyboard */; };
+		3B33471D2A29DE59001D5060 /* upimagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33471C2A29DE59001D5060 /* upimagesViewController.swift */; };
+		3BD4DACA2A2D92C900F48A9A /* himawari.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4DAC92A2D92C900F48A9A /* himawari.png */; };
+		3BD4DACC2A2DA9BB00F48A9A /* nikoniko-suika.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4DACB2A2DA9BB00F48A9A /* nikoniko-suika.png */; };
+		3BD4DACE2A2DA9D100F48A9A /* suika-tane.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4DACD2A2DA9D100F48A9A /* suika-tane.png */; };
+		3BD4DAD02A2DA9DA00F48A9A /* suikadaki.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4DACF2A2DA9DA00F48A9A /* suikadaki.png */; };
+		3BD4DAD22A2DA9F400F48A9A /* hatsuga.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4DAD12A2DA9F400F48A9A /* hatsuga.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		3B3346FF2A29C2C2001D5060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B3347022A29C2C2001D5060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B3347042A29C2C2001D5060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B33471C2A29DE59001D5060 /* upimagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upimagesViewController.swift; sourceTree = "<group>"; };
+		3BD4DAC92A2D92C900F48A9A /* himawari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = himawari.png; sourceTree = "<group>"; };
+		3BD4DACB2A2DA9BB00F48A9A /* nikoniko-suika.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nikoniko-suika.png"; path = "Assets.xcassets/nikoniko-suika.png"; sourceTree = "<group>"; };
+		3BD4DACD2A2DA9D100F48A9A /* suika-tane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "suika-tane.png"; path = "Assets.xcassets/suika-tane.png"; sourceTree = "<group>"; };
+		3BD4DACF2A2DA9DA00F48A9A /* suikadaki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = suikadaki.png; path = Assets.xcassets/suikadaki.png; sourceTree = "<group>"; };
+		3BD4DAD12A2DA9F400F48A9A /* hatsuga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hatsuga.png; path = Assets.xcassets/hatsuga.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +71,14 @@
 				3B3346F62A29C2C1001D5060 /* AppDelegate.swift */,
 				3B3346F82A29C2C1001D5060 /* SceneDelegate.swift */,
 				3B3346FA2A29C2C1001D5060 /* ViewController.swift */,
+				3B33471C2A29DE59001D5060 /* upimagesViewController.swift */,
 				3B3346FC2A29C2C1001D5060 /* Main.storyboard */,
 				3B3346FF2A29C2C2001D5060 /* Assets.xcassets */,
+				3BD4DAD12A2DA9F400F48A9A /* hatsuga.png */,
+				3BD4DACD2A2DA9D100F48A9A /* suika-tane.png */,
+				3BD4DAC92A2D92C900F48A9A /* himawari.png */,
+				3BD4DACF2A2DA9DA00F48A9A /* suikadaki.png */,
+				3BD4DACB2A2DA9BB00F48A9A /* nikoniko-suika.png */,
 				3B3347012A29C2C2001D5060 /* LaunchScreen.storyboard */,
 				3B3347042A29C2C2001D5060 /* Info.plist */,
 			);
@@ -125,9 +143,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD4DACA2A2D92C900F48A9A /* himawari.png in Resources */,
 				3B3347032A29C2C2001D5060 /* LaunchScreen.storyboard in Resources */,
+				3BD4DAD02A2DA9DA00F48A9A /* suikadaki.png in Resources */,
+				3BD4DAD22A2DA9F400F48A9A /* hatsuga.png in Resources */,
 				3B3347002A29C2C2001D5060 /* Assets.xcassets in Resources */,
+				3BD4DACE2A2DA9D100F48A9A /* suika-tane.png in Resources */,
 				3B3346FE2A29C2C1001D5060 /* Main.storyboard in Resources */,
+				3BD4DACC2A2DA9BB00F48A9A /* nikoniko-suika.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B3346FB2A29C2C1001D5060 /* ViewController.swift in Sources */,
+				3B33471D2A29DE59001D5060 /* upimagesViewController.swift in Sources */,
 				3B3346F72A29C2C1001D5060 /* AppDelegate.swift in Sources */,
 				3B3346F92A29C2C1001D5060 /* SceneDelegate.swift in Sources */,
 			);
