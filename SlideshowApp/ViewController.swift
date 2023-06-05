@@ -48,16 +48,16 @@ class ViewController: UIViewController {
             
             startButton.setTitle("停止", for: .normal)
             
-            nextbutton.isHidden = true
-            prevbutton.isHidden = true
+            nextbutton.isEnabled = false
+            prevbutton.isEnabled = false
             
         }else{
             timer.invalidate()
             timer = nil
             startButton.setTitle("再生", for: .normal)
             
-            nextbutton.isHidden = false
-            prevbutton.isHidden = false
+            nextbutton.isEnabled = true
+            prevbutton.isEnabled = true
         }
     }
     
@@ -91,6 +91,14 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let upimagesViewContoroller:upimagesViewController = segue.destination as! upimagesViewController
+        if timer != nil {
+            timer.invalidate()
+            timer = nil
+            startButton.setTitle("再生", for: .normal)
+            
+            nextbutton.isEnabled = true
+            prevbutton.isEnabled = true
+        }
         upimagesViewContoroller.nowIndex = nowIndex
     }
     
